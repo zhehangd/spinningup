@@ -13,6 +13,11 @@ setup(
     name='spinup',
     py_modules=['spinup'],
     version=__version__,#'0.1',
+    description="Teaching tools for introducing people to deep RL.",
+    author="Joshua Achiam",
+)
+
+"""
     install_requires=[
         'cloudpickle==1.2.1',
         'gym[atari,box2d,classic_control]~=0.15.3',
@@ -30,6 +35,4 @@ setup(
         'torch==1.3.1',
         'tqdm'
     ],
-    description="Teaching tools for introducing people to deep RL.",
-    author="Joshua Achiam",
-)
+"""
